@@ -1,0 +1,4 @@
+#!/bin/env bash
+hour=$(date "+%H")
+/home/bruce/bin/ksetwallpaper /home/bruce/Pictures/Wallpapers/mojave_dynamic/mojave_dynamic_${hour}.jpeg 
+kwriteconfig5 --file kscreenlockerrc --group Greeter --group Wallpaper --group org.kde.image --group General --key Image "/home/bruce/Pictures/Wallpapers/mojave_dynamic/mojave_dynamic_${hour}.jpeg"

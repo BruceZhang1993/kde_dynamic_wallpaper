@@ -1,0 +1,11 @@
+[Unit]
+Description=Change wallpaper hourly
+
+[Timer]
+OnActiveSec=5sec
+OnCalendar=hourly
+Persistent=true
+Unit=wallpaper-hourly.service
+
+[Install]
+WantedBy=timers.target

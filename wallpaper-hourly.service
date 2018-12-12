@@ -1,0 +1,6 @@
+[Unit]
+Description=Set wallpaper according to hour
+
+[Service]
+Type=oneshot
+ExecStart=/home/bruce/bin/wallpaper_timechange
